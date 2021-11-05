@@ -11,7 +11,7 @@ const db = {};
 let sequelize;
 if (config.use_env_variable) {
   try {
-    sequelize = new Sequelize(process.env[config.use_env_variable]+"?ssl=true", config);
+    sequelize = new Sequelize(process.env[config.use_env_variable], config);
     //console.log("<< Conectado com sucesso usando DATABASE_URL! >> ", process.env[config.use_env_variable]);
   } catch (error) {
     console.log("erro na conexão: ", error);
