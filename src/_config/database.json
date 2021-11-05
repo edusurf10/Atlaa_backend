@@ -5,8 +5,7 @@
     "database": "d4924ond223ko",
     "host": "ec2-54-146-142-58.compute-1.amazonaws.com",
     "port": "5432",
-    "dialect": "postgres",
-    "ssl":"true"
+    "dialect": "postgres"
   },
   "test": {
     "username": "vanksrryhcbuwz",

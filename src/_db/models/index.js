@@ -14,7 +14,7 @@ if (config.use_env_variable) {
 } else {
   try {
     sequelize = new Sequelize(config.database, config.username, config.password, config);
-    console.log("Conectado com sucesso!");
+    console.log("<< Conectado com sucesso! >> ", config.use_env_variable);
   } catch (error) {
     console.log("erro na conexão: ", error);
   }
