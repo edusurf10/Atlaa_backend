@@ -21,6 +21,7 @@
     "database": "d4924ond223ko",
     "host": "ec2-54-146-142-58.compute-1.amazonaws.com",
     "port": "5452",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "use_env_variable":"DATABASE_URL"
   }
 }
