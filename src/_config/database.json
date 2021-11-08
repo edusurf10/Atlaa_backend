@@ -37,6 +37,5 @@
     "port": "5452",
     "dialect": "postgres",
     "use_env_variable":"DATABASE_URL"
-    }
   }
 }
