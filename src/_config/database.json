@@ -38,6 +38,9 @@
     "dialect": "postgres",
     "use_env_variable":"DATABASE_URL",
     "ssl":"true",
-    "sslmode":"require"
+    "sslmode":"require",
+    "ssl": {
+      "rejectUnauthorized":"false"
+    }
   }
 }
