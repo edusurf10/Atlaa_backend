@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "vanksrryhcbuwz",
-    "password": "a5b6e96dae5fdad656b68161a8a94d6b6fbeace6db03cc0aabc6c617eca07afe",
-    "database": "d4924ond223ko",
-    "host": "ec2-54-146-142-58.compute-1.amazonaws.com",
+    "username": "jvmteojylnypxk",
+    "password": "d841b23d204ab023ddaa2954fe4e82d6e5d4445623c449d87260d2cbe33be2f7",
+    "database": "d30jg9ncu625be",
+    "host": "ec2-44-198-196-169.compute-1.amazonaws.com",
     "port": "5452",
     "dialect": "postgres",
     "use_env_variable":"DATABASE_URL",
@@ -15,10 +15,10 @@
     }
   },
   "test": {
-    "username": "vanksrryhcbuwz",
-    "password": "a5b6e96dae5fdad656b68161a8a94d6b6fbeace6db03cc0aabc6c617eca07afe",
-    "database": "d4924ond223ko",
-    "host": "ec2-54-146-142-58.compute-1.amazonaws.com",
+    "username": "jvmteojylnypxk",
+    "password": "d841b23d204ab023ddaa2954fe4e82d6e5d4445623c449d87260d2cbe33be2f7",
+    "database": "d30jg9ncu625be",
+    "host": "ec2-44-198-196-169.compute-1.amazonaws.com",
     "port": "5452",
     "dialect": "postgres",
     "use_env_variable":"DATABASE_URL",
@@ -30,17 +30,12 @@
     }
   },
   "production": {
-    "username": "vanksrryhcbuwz",
-    "password": "a5b6e96dae5fdad656b68161a8a94d6b6fbeace6db03cc0aabc6c617eca07afe",
-    "database": "d4924ond223ko",
-    "host": "ec2-54-146-142-58.compute-1.amazonaws.com",
+    "username": "jvmteojylnypxk",
+    "password": "d841b23d204ab023ddaa2954fe4e82d6e5d4445623c449d87260d2cbe33be2f7",
+    "database": "d30jg9ncu625be",
+    "host": "ec2-44-198-196-169.compute-1.amazonaws.com",
     "port": "5452",
     "dialect": "postgres",
-    "use_env_variable":"DATABASE_URL",
-    "ssl":"true",
-    "sslmode":"require",
-    "ssl": {
-      "rejectUnauthorized":"false"
-    }
+    "use_env_variable":"DATABASE_URL"
   }
 }
